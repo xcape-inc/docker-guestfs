@@ -1,4 +1,4 @@
-FROM ubuntu:15.10
+FROM ubuntu:20.04
 MAINTAINER Uwe Dauernheim <uwe@dauernheim.net>
 
 WORKDIR /root
