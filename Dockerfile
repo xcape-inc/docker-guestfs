@@ -11,6 +11,8 @@ RUN apt-get update && \
           qemu-utils \
           linux-image-generic
 
+COPY guestfish_use_script.sh /usr/local/bin/guestfish_use_script.sh
+
 ENV LIBGUESTFS_BACKEND=direct
 
 LABEL org.opencontainers.image.authors='Xcape, Inc. <support@xcapeinc.com>'
