@@ -11,8 +11,7 @@ RUN apt-get update && \
           qemu-utils \
           linux-image-generic
 
-ENV LIBGUESTFS_BACKEND=direct \
-    HOME=/root
+ENV LIBGUESTFS_BACKEND=direct
 
 LABEL org.opencontainers.image.authors='Xcape, Inc. <support@xcapeinc.com>'
 LABEL org.opencontainers.image.url='https://github.com/xcape-inc/docker-guestfs'
